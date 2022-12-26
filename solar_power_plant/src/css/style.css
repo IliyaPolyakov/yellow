@@ -3,38 +3,74 @@
 }
 
 .conteiner{
-	display:flex;
-  text-align: center;
-	justify-content: center;
+	background: url(/solar_power_plant/src/img/fon.jpg)no-repeat center;
+  height: 900px;
 	width: 100%;
-
-	
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 150px;
 }
 
 
 
+.logo{
+	background: url(/solar_power_plant/src/img/logo_1.svg)no-repeat;
+	width: 182.09px;
+  height: 51px;
+	/* padding-top:70px; */
+	margin-top: 70px;
+	}
 
-.header_fon{
-	background: url(/solar_power_plant/src/img/fon.jpg) no-repeat center ;
-	width: 100%;
-	height: 900px;
-	padding-bottom: 30%;
-}
-
-.logo_1{
-width: 182.09px;
-height: 51px;
-
-}
-
-
-
-
-.watshap{
+.social{
+	background: url(/solar_power_plant/src/img/social_media.png)no-repeat;
 	width: 166.12px;
   height: 30.03px;
+	margin-top: 266px;
+}
+
+.Green{
+	font-family:sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+margin-top: 150px;
+}
+
+.solar{
+font-family:sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 87px;
+font-variant: small-caps;
+color: #FFFFFF;
+}
+
+.income{
+font-family:sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 57px;
+color: #FFFFFF;
+margin-top: 3px;
 
 }
+
+.consultation{
+	font-family:sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+margin-top: 109px;
+
+}
+
 
 .header-2{
 	display: flex;
@@ -45,21 +81,23 @@ height: 51px;
 	
 }
 
-.headr-text{
+.services{
 font-family:sans-serif;
 font-weight: 700;
 font-size: 24px;
 line-height: 33px;
 color: #868585;
 margin: 0px 0px 50px 0px;
+
 }
 
- .container-3{
+ .container2{
 	display: flex;
 	width: 100%;
 	height: 680px;
 	margin: 0px 0px 150px 0px;
   justify-content: space-evenly;
+	align-items: flex-end;
 	
 }
 
@@ -69,13 +107,13 @@ margin: 0px 0px 50px 0px;
 }
 
 .box-right{
-background: url(../img/max_panel.jpg);
+
 width:600px;
 
 height: 670px;
 }
 
-.item_7{
+.full{
 font-family:sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -84,7 +122,7 @@ margin: 0px 0px 15px 0px;
 
 }
 
-.item_8{
+.models{
 font-family:sans-serif;
 font-weight: 400;
 font-size: 14px;
@@ -92,7 +130,7 @@ line-height: 19px;
 margin: 0px 0px 50px 0px;
 }
 
-.item_9{
+.selection{
 font-family:sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -100,7 +138,7 @@ line-height: 25px;
 margin: 0px 0px 15px 0px;
 }
 
-.item_10{
+.maximum{
 font-family:sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -109,7 +147,7 @@ line-height: 19px;
 margin: 0px 0px 50px 0px;
 }
 
-.item_11{
+.item_1{
 font-family:sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -117,7 +155,7 @@ line-height: 25px;
 margin: 0px 0px 15px 0px;
 }
 
-.item_12{
+.item_2{
 font-family:sans-serif;
 font-weight: 400;
 font-size: 14px;
@@ -125,7 +163,7 @@ line-height: 19px;
 margin: 0px 0px 50px 0px;
 }
 
-.item_13{
+.help{
 	font-family:sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -133,85 +171,60 @@ line-height: 25px;
 margin: 0px 0px 15px 0px;
 }
 
-.item_14{
+.bureaucracy{
 	font-family:sans-serif;
 font-weight: 400;
 font-size: 14px;
 line-height: 19px;
 }
 
-.header-3{
-display: flex;
-width: 100%;
-}
-
-.header-text_1{
-
+.green_tariff{
 font-family:sans-serif;
 font-weight: 700;
 font-size: 24px;
 line-height: 33px;
 color: #868585;
-margin:0px 0px 60px 0px;
+
 }
 
-.container-4{
+.container-3{
 	display: flex;
 	width: 100%;
 	height: 800px;
-	
 	flex-direction: column;
 	Flex-wrap: wrap;
-
 }
 
-.item_15{
-width:34%;
-height:27px;
-height: 130px;
-justify-content: space-evenly;
-display: flex;
-margin:0px 0px 0px 142px;
+.left_content{
+	width: 35%;
+	height: 765px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
-.menu1{
+.right_content{
+	width: 35%;
+}
+
+.menu{
 	font-family:sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 25px;
 	color: #303030;
-	text-decoration:underline;
+	padding:20px 20px 20px 20px;
+	
+	}
+
+
+.traficHouse{
+	width: 235px;
+height: 200px;
 }
 
-.item_16{
-	width:34%;
-	margin:0px 0px 0px 142px;
-	height: 200px;
-	display: flex;
-	Flex-wrap: wrap;
-	
-	justify-content: space-between;
 
-}
-
-.item_17{
-  width:34%;
-
-	height: 340px;
-	display: flex;
-	flex-wrap: nowrap;
-	margin: 0px 0px 0px 142px;;
-	
-}
-.item_18{
-	
-
-	height: 672px;
-	
-}
-
-.header1{
+.special{
 	font-family:sans-serif;
 	font-style: normal;
 	font-weight: 700;
@@ -223,29 +236,13 @@ margin:0px 0px 0px 142px;
 	padding: 0px 0px 17px 0px;
 }
 
-
-.main{
-
-	background: url(/src/img/Rectangle\ 8.jpg)no-repeat center;
-	width: 600px;
-  height: 525px;
-}
-
-.element1{
-
-	background: url(../img/Rectangle\ 9.jpg)no-repeat center;
-	width: 235px;
-  height: 200px;
-}
-.element2{
+.price{
 width:235px;
 font-family:sans-serif;
 font-weight:400;
 font-size:14px;
 line-height:19px;
 color:#303030;
-
-
 }
 
 .element3{
@@ -258,25 +255,25 @@ margin: 5px;
 	margin: 5px;
 }
 
-.text{
+.guarantee{
 font-family:sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 25px;
 color: #303030;
-padding:100px 0px 0px 0px;
+
 }
-.text2{
+.ransom{
 font-family:sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 19px;
 color: #303030;
-padding:0px 0px 32px 0px;
+
 }
 
-.text3{
+.view{
 font-family:sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -284,7 +281,7 @@ line-height: 25px;
 color: #303030;
 }
 
-.text4{
+.alternative{
 	font-family:sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -293,26 +290,26 @@ color: #303030;
 	color: #303030;
 }
 
-.text5{
+.long{
 font-family:sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 25px;
 color: #303030;
-padding:100px 0px 0px 0px;
+
 }
 
-.text6{
+.project{
 	font-family:sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 19px;
 	color: #303030;
-	padding:0px 0px 19px 0px;
+	
 }
 
-.text7{
+.bid{
 	font-family:sans-serif;
 	font-weight: 700;
 	font-size: 18px;
@@ -320,7 +317,7 @@ padding:100px 0px 0px 0px;
 	color: 303030;
 }
 
-.text9{
+.europe{
 	font-family:sans-serif;
 	font-style: normal;
 	font-weight: 400;

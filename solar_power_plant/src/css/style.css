@@ -1,6 +1,6 @@
-*{
+ *{
 	box-sizing: border-box;
-}
+} 
 
 .conteiner{
 	background: url(/solar_power_plant/src/img/fon.jpg)no-repeat center;
@@ -12,21 +12,19 @@
   margin-bottom: 150px;
 }
 
-
-
 .logo{
 	background: url(/solar_power_plant/src/img/logo_1.svg)no-repeat;
 	width: 182.09px;
   height: 51px;
 	/* padding-top:70px; */
-	margin-top: 70px;
+	margin-top: 10px;
 	}
 
 .social{
 	background: url(/solar_power_plant/src/img/social_media.png)no-repeat;
 	width: 166.12px;
   height: 30.03px;
-	margin-top: 266px;
+	margin-top: 210px;
 }
 
 .Green{
@@ -57,7 +55,6 @@ font-size: 42px;
 line-height: 57px;
 color: #FFFFFF;
 margin-top: 3px;
-
 }
 
 .consultation{
@@ -67,10 +64,8 @@ font-weight: 400;
 font-size: 18px;
 line-height: 25px;
 color: #FFFFFF;
-margin-top: 109px;
-
+margin-top: 10px;
 }
-
 
 .header-2{
 	display: flex;
@@ -78,7 +73,6 @@ margin-top: 109px;
 	
 	padding: 0px 0px 0px 204px;
 	margin: 150px 0px 0px 0px;
-	
 }
 
 .services{
@@ -88,28 +82,23 @@ font-size: 24px;
 line-height: 33px;
 color: #868585;
 margin: 0px 0px 50px 0px;
-
 }
 
- .container2{
+  .container2{
 	display: flex;
 	width: 100%;
 	height: 680px;
 	margin: 0px 0px 150px 0px;
   justify-content: space-evenly;
 	align-items: flex-end;
-	
 }
 
 .box-left{
 	width: 30%;
-
 }
 
 .box-right{
-
 width:600px;
-
 height: 670px;
 }
 
@@ -184,7 +173,8 @@ font-weight: 700;
 font-size: 24px;
 line-height: 33px;
 color: #868585;
-
+height: 33px;
+margin-left: 150px;
 }
 
 .container-3{
@@ -192,12 +182,12 @@ color: #868585;
 	width: 100%;
 	height: 800px;
 	flex-direction: column;
-	Flex-wrap: wrap;
-}
+	flex-wrap:wrap;
+	}
 
 .left_content{
 	width: 35%;
-	height: 765px;
+
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -206,23 +196,44 @@ color: #868585;
 	width: 35%;
 }
 
-.menu{
+.menu_1{
+	width:80%;
+	height: 22px;
+	margin-left: 150px;
+	margin-bottom: 70px;
 	font-family:sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 25px;
-	color: #303030;
-	padding:20px 20px 20px 20px;
-	
+	color:black;
 	}
 
+.sale{
+	padding-right: 40px;
+	color:black;
+}
+
+.consolidation{
+	padding-right: 40px;
+	color:black;
+}
+.restrictions{
+	color:black;
+}
+
+.price_1{
+display: grid;
+grid-template-columns:1fr 1fr;
+grid-gap: 40px;
+}
 
 .traficHouse{
 	width: 235px;
 height: 200px;
+margin-left: 150px;
+margin-bottom: 50px;
 }
-
 
 .special{
 	font-family:sans-serif;
@@ -243,16 +254,14 @@ font-weight:400;
 font-size:14px;
 line-height:19px;
 color:#303030;
+
+}
+.element1{
+	margin-left: 150px;
 }
 
 .element3{
-	width: 50%;
-margin: 5px;
-}
-
-.element4{
-	width: 50%;
-	margin: 5px;
+	margin-left: 150px;
 }
 
 .guarantee{
@@ -261,8 +270,11 @@ font-weight: 700;
 font-size: 18px;
 line-height: 25px;
 color: #303030;
-
+width:184px;
+height:26px;
+margin-bottom: 5px;
 }
+
 .ransom{
 font-family:sans-serif;
 font-style: normal;
@@ -270,7 +282,8 @@ font-weight: 400;
 font-size: 14px;
 line-height: 19px;
 color: #303030;
-
+width:235px;
+height:78.44px;
 }
 
 .view{
@@ -279,6 +292,9 @@ font-weight: 700;
 font-size: 18px;
 line-height: 25px;
 color: #303030;
+Width:160px;
+Height:25px;
+margin-bottom: 5px;
 }
 
 .alternative{
@@ -288,6 +304,8 @@ color: #303030;
 	font-size: 14px;
 	line-height: 19px;
 	color: #303030;
+	Width:235px;
+  Height:57px;
 }
 
 .long{
@@ -296,7 +314,9 @@ font-weight: 700;
 font-size: 18px;
 line-height: 25px;
 color: #303030;
-
+Width:160px;
+Height:26px;
+margin-bottom: 5px;
 }
 
 .project{
@@ -306,7 +326,8 @@ color: #303030;
 	font-size: 14px;
 	line-height: 19px;
 	color: #303030;
-	
+	Width:235px;
+  Height:76px;
 }
 
 .bid{
@@ -314,7 +335,10 @@ color: #303030;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 25px;
-	color: 303030;
+	color:#303030;
+	Width:160px;
+  Height:28px;
+  margin-bottom: 5px;
 }
 
 .europe{
@@ -324,18 +348,21 @@ color: #303030;
 	font-size: 14px;
 	line-height: 19px;
 	color: #303030;
-
+	Width:235px;
+	Height:40px;
 }
 
-.container-5{
+.container-4{
 	width:100%;
 	height:500px;
-	background: url(../img/Rectangle\ 10.jpg)no-repeat center;
+	background: url(/solar_power_plant/src/img/big.jpg)no-repeat center;
 	display: flex;
 	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 150px;
 }
 
-.element5{
+.income{
 	font-family:sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -343,38 +370,38 @@ font-size: 42px;
 line-height: 57px;
 text-align: center;
 color: #FFFFFF;
+Width:673px;
+Height:228px;
 }
 
-.container-6{
-	width: 100%;
-	display: flex;
-}
-
-.header-3{
+.clients{
 	font-family:sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 33px;
 	color: #868585;
-	padding: 0px 0px 0px 204px;
-	margin:150px 0px 50px 0px
+	padding-bottom: 50px;
 }
 
-
-.container-7{
+.container-5{
 	display: flex;
 	Width:100%;
-	justify-content: space-evenly
-
-
+	justify-content: space-evenly;
+	height: 495px;
 }
 
 .left2{
-	background: url(../img/Rectangle\ 11.jpg);
+display: flex;
 width: 510px;
 height: 370px;
-	
+flex-direction: column;
+padding-bottom: 50px;
+}
+
+.luminous{
+	width: 510px;
+  height: 370px;
 }
 
 .right2{
@@ -382,10 +409,9 @@ height: 370px;
   flex-direction: column;
 justify-content:flex-start;
 	align-items: center;
-
 }
 
-.text9{
+.connected{
 	font-family:sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -397,7 +423,7 @@ height: 50px;
 margin: 0px 0px 30px 0px;
 }
 
-.text10{
+.location{
 font-family:sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -407,7 +433,7 @@ color: #303030;
 margin: 0px 0px 15px 0px;
 }
 
-.text11{
+.net_income{
 font-family:sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -418,7 +444,7 @@ margin: 0px 0px 15px 0px;
 
 }
 
-.text12{
+.april{
 font-family:sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -427,7 +453,7 @@ line-height: 19px;
 color: #303030;
 margin: 0px 0px 16px 0px;
 }
-.text13{
+.term{
 font-family:sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -437,7 +463,7 @@ color: #303030;
 margin: 0px 0px 16px 0px;
 }
 
-.text14{
+.link_consultation{
 	font-family:sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -448,7 +474,7 @@ margin: 0px 0px 16px 0px;
 	margin: 124px 0px 198px 0px;
 }
 
-.container-8{
+.container-6{
 	width:100%;
 	height: 730px;
 	display: flex;
@@ -456,19 +482,23 @@ margin: 0px 0px 16px 0px;
 }
 
 .right3{
-	background: url(../img/Rectangle\ 12.png);
+	
 	width: 600px;
   height: 730px;
 	display: flex;
 }
 
+.car{
+	width: 600px;
+  height: 730px;
+}
 
 .left3{
 display: flex;
 flex-direction: column;
 }
 
-.text15{
+.steps{
 font-family:sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -477,7 +507,7 @@ line-height: 33px;
 color: #868585;
 width: 324px;
 height: 66px;
-margin:0px 0px 60px 50px;
+margin:50px 0px 60px 50px;
 }
 
 .number-1{
@@ -492,7 +522,7 @@ height: 19px;
 margin:0px 0px 11px 50px;
 }
 
-.text17{
+.call{
 	font-family:sans-serif;
 	font-style: normal;
 	font-weight: 700;
@@ -503,7 +533,7 @@ margin:0px 0px 11px 50px;
 
 }
 
-.text18{
+.request{
 font-family:sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -525,7 +555,7 @@ color: #868585;
 margin:0px 0px 11px 50px;
 }
 
-.text20{
+.froze{
 	font-family:sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -535,7 +565,7 @@ color: #303030;
 margin:0px 0px 2px 50px;
 }
 
-.text21{
+.options{
 	font-family:sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -557,7 +587,7 @@ color: #868585;
 margin:0px 0px 10px 50px;
 }
 
-.text23{
+.conclusion{
 font-family:sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -567,7 +597,7 @@ color: #303030;
 margin:0px 0px 2px 50px;
 }
 
-.text24{
+.breakdown{
 	font-family:sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -589,7 +619,7 @@ color: #868585;
 margin:0px 0px 10px 50px;
 }
 
-.text25{
+.installation_ses{
 font-family:sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -599,7 +629,7 @@ color: #303030;
 margin:0px 0px 2px 50px;
 }
 
-.text26{
+.our_specialists{
 	font-family:sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -621,7 +651,7 @@ color: #868585;
 margin:0px 0px 10px 50px;
 }
 
-.text27{
+.state{
 	font-family:sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -631,7 +661,7 @@ color: #303030;
 margin:0px 0px 2px 50px;
 }
 
-.text28{
+.kilowatt{
 	font-family:sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -643,8 +673,6 @@ height: 57px;
 margin: 0px 0px 0px 50px;
 }
 
-
-
 .image-footer{
 	width: 100%;
 	height: 730px;
@@ -655,26 +683,22 @@ margin: 0px 0px 0px 50px;
 	justify-content: space-evenly;
 }
 
-
 .left-footer{
 width: 30%;
 height: 500px;
-
 }
 
 .right-footer{
 	width: 30%;
 height: 500px;
-
 }
 
 .footer-end{
 	width: 100%;
 	height: 170px;
-	
 }
 
-.text29{
+.submit{
 	font-family:sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -684,7 +708,7 @@ color: #FFFFFF;
 margin: 0px 0px 60px 0px;
 }
 
-.text30{
+.name{
 font-family:sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -692,11 +716,9 @@ font-size: 14px;
 line-height: 19px;
 color: black;
 margin: 0px 0px 11px 0px;
-
+font-size:20px;
+font-weight:bold;
 }
-
-
-
 
 .line2{
 	background: url(../img/Line\ 2.png);
@@ -708,10 +730,11 @@ margin: 0px 0px 11px 0px;
 font-family:sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 14px;
 line-height: 19px;
 color:black;
 margin: 0px 0px 11px 0px;
+font-size:20px;
+font-weight:bold;
 }
 
 .line3{
@@ -720,7 +743,7 @@ margin: 0px 0px 11px 0px;
 	margin: 0px 0px 119px 0px;
 }
 
-.text32{
+.sumbit_2{
 font-family:sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -729,9 +752,7 @@ line-height: 25px;
 color: #FFFFFF;
 }
 
-
-
-.text33{
+.contacts_footer{
 font-family:sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -741,7 +762,7 @@ color: #FFFFFF;
 margin: 0px 0px 60px 0px;
 }
 
-.text34{
+.moscow{
 font-family:sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -753,7 +774,7 @@ width: 600px;
 height: 50px;
 }
 
-.text35{
+.kyiv{
 	font-family:sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -765,7 +786,7 @@ height: 50px;
   height: 50px;
 	}
 
-	.text36{
+	.kharkov{
 		font-family:sans-serif;
 		font-style: normal;
 		font-weight: 400;
@@ -775,7 +796,7 @@ height: 50px;
 		margin: 0px 0px 30px 0px;
 	}
 
-	.text37{
+	.mobile_number{
 		font-family:sans sans-serif;
 		font-style: normal;
 		font-weight: 400;
@@ -787,7 +808,7 @@ height: 50px;
 		margin: 0px 0px 30px 0px;
 	}
 
-	.text38{
+	.daily{
 font-family:sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -812,13 +833,13 @@ color: #FFFFFF;
 }
 
 .footer-logo1{
-background: url(../img/лого\ \(1\)\ 1.svg)no-repeat center;
+background: url(/solar_power_plant/src/img/logo_1.svg)no-repeat center;
 width: 182px;
 height: 51px;
 }
 
 .footer-watshap{
-	background: url(../img/watshap-\ \(1\).png)no-repeat center;
+	background: url(/solar_power_plant/src/img/social_media.png)no-repeat center;
 	width: 166.04px;
   height: 30.03px;
 }
